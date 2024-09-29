@@ -1,7 +1,13 @@
-function App(){
-    return <div>
-        <h1>HEllo App</h1>
-    </div>
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+import Main from "./components/Main"
+
+function App() {
+    return <>
+        <Header />
+        <Main />
+        <Footer />
+    </>
 }
 
 export default App
