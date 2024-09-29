@@ -1,6 +1,6 @@
 function Footer() {
     return <footer className="footer">
-        <h1>footer</h1>
+        <h1> edited footer</h1>
     </footer>
 }
 

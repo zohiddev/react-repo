@@ -29,3 +29,30 @@ button{
     border: none;
     cursor: pointer;
 }
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    flex: 1 1 auto;
+}
+
+.header{
+    background-color: red;
+    color: white;
+    padding: 12px;
+}
+
+.main{
+    background-color: green;
+    color: white;
+    padding: 12px;
+}
+
+.footer{
+    background-color: blue;
+    color: white;
+    padding: 12px;
+}
